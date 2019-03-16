@@ -26,17 +26,17 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-a674cedc5d72f1c5fded.js"
+    "url": "webpack-runtime-e67e5c19ad703e0e526b.js"
   },
   {
-    "url": "app-f779f4494411af1c72b3.js"
+    "url": "app-3e785eb8c44daae74316.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-8ecb54e172472c777e36.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "8ddaa964419ef126a001f1b9f73fe282"
+    "revision": "a729746fa0ba22a62db7d028f3c41681"
   },
   {
     "url": "styles.8c205d58230387c0c0b3.css"
@@ -79,7 +79,7 @@ const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
   return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      const offlineShell = `/reponame/offline-plugin-app-shell-fallback/index.html`
+      const offlineShell = `/gallayl.github.io/offline-plugin-app-shell-fallback/index.html`
       const cacheName = workbox.core.cacheNames.precache
 
       return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
@@ -151,7 +151,7 @@ const messageApi = {
 
     pathnames = pathnames.map(({ pathname, includesPrefix }) => {
       if (!includesPrefix) {
-        return `/reponame${pathname}`
+        return `/gallayl.github.io${pathname}`
       } else {
         return pathname
       }
