@@ -1,0 +1,2489 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "E:/node/gallayl.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "E:/node/gallayl.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a6e060bb515050b1e210fb5317db431f",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "431065069cfd1807665645626f18099a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3fdf15f0792c0253c8503faa82c0da58",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1b93ee9985f8e34f0ac79a09bc27898a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "dfab209e015aa60164326d4f1f471c4d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1d516339654aa03520850e8c997d9723",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "059d6553a9096577c7667580e7bb658a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6bbae0b7c646e5dd26d831eeb6d83cbe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d87a17-0450-5a74-b1b8-d3c548db8cdc": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-source-filesystem",
+      "id": "84d87a17-0450-5a74-b1b8-d3c548db8cdc",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.27",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "E:\\node\\gallayl.github.io/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e7210d11391da48273e317d2d64e73c7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "de287466aa4a3545ca2abcfb73fa35e8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.28",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4da06c153271773f323d56dcec599e64",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "112c12f8-b222-509b-abe0-dfe93a905df9": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-manifest",
+      "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.24",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0b408ef9423b6aae74bca7434323d59f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c45fc82b-8037-555d-a9e1-ac1561d43c59": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-source-filesystem",
+      "id": "c45fc82b-8037-555d-a9e1-ac1561d43c59",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.27",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "E:\\node\\gallayl.github.io/md",
+        "name": "markdown-pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e0e9d9ce59b77ec22ad489c33ecb0c97",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.4",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "686f4e895a4ec232203ceb330947b2cd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bd4c67391b89803b8bf689acce0d4df5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6baed434-a608-5e80-ba69-fa94fef95ec5": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-typescript",
+      "id": "6baed434-a608-5e80-ba69-fa94fef95ec5",
+      "name": "gatsby-plugin-typescript",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "resolvableExtensions",
+        "onCreateBabelConfig",
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-typescript",
+      "packageJson": {
+        "name": "gatsby-plugin-typescript",
+        "description": "Adds TypeScript support to Gatsby",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typescript"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/preset-typescript",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-plugin-remove-graphql-queries",
+            "version": "^2.6.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0ef221a99c1a061ba78b0e2b71270bca",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "E:/node/gallayl.github.io",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "11125a83f570c04996eeb33777e62236",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@furystack/inject",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "@material-ui/core",
+            "version": "^3.9.2"
+          },
+          {
+            "name": "@material-ui/icons",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "@types/react-responsive",
+            "version": "^3.0.3"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.1.31"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.24"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.25"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.9"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.28"
+          },
+          {
+            "name": "gatsby-plugin-typescript",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.27"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.3.4"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.17"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.4"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.4"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-responsive",
+            "version": "^6.1.1"
+          },
+          {
+            "name": "tslint-config-prettier",
+            "version": "^1.18.0"
+          },
+          {
+            "name": "tslint-consistent-codestyle",
+            "version": "^1.15.1"
+          },
+          {
+            "name": "tslint-react",
+            "version": "^3.6.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7639ef9f69cdf6d7d1b30bca70d19b3a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "bef460fc-6aa5-587d-b189-4e436917fc91": {
+      "resolve": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-page-creator",
+      "id": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "E:/node/gallayl.github.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "E:/node/gallayl.github.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "47256a2866b7284d85526c0ed7fe89b3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "gallayl.github.io",
+        "description": "An experiment with gatsbyjs",
+        "author": "@gallayl"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "/gallayl.github.io",
+      "polyfill": true,
+      "buildTime": "2019-03-17T09:21:04.263Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8d020fe709da3d7e28f9ed53476f8126",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "5cff8c0b-031d-5b95-bec1-d42f02a46bd3": {
+      "id": "5cff8c0b-031d-5b95-bec1-d42f02a46bd3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5943d30c1c2fe6d091e50c48c311324d",
+        "type": "Directory",
+        "description": "Directory \"src\\images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "E:/node/gallayl.github.io/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-03-16T14:25:55.067Z",
+      "accessTime": "2019-03-16T14:26:11.347Z",
+      "changeTime": "2019-03-16T14:25:55.067Z",
+      "birthTime": "2019-03-16T14:25:55.065Z",
+      "root": "E:/",
+      "dir": "E:/node/gallayl.github.io/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 1392475438,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2251799813878740,
+      "atimeMs": 1552746371346.8794,
+      "mtimeMs": 1552746355066.902,
+      "ctimeMs": 1552746355066.902,
+      "birthtimeMs": 1552746355064.9077,
+      "atime": "2019-03-16T14:26:11.347Z",
+      "mtime": "2019-03-16T14:25:55.067Z",
+      "ctime": "2019-03-16T14:25:55.067Z",
+      "birthtime": "2019-03-16T14:25:55.065Z"
+    },
+    "77915338-6af7-539c-b3d6-148c5f616ce4": {
+      "id": "77915338-6af7-539c-b3d6-148c5f616ce4",
+      "children": [
+        "12ea8c01-5385-5eee-9141-c086fea577f8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "E:/node/gallayl.github.io/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-03-16T14:25:55.067Z",
+      "accessTime": "2019-03-16T14:25:55.067Z",
+      "changeTime": "2019-03-16T14:25:55.067Z",
+      "birthTime": "2019-03-16T14:25:55.067Z",
+      "root": "E:/",
+      "dir": "E:/node/gallayl.github.io/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 1392475438,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2251799813878742,
+      "atimeMs": 1552746355066.902,
+      "mtimeMs": 1552746355066.902,
+      "ctimeMs": 1552746355066.902,
+      "birthtimeMs": 1552746355066.902,
+      "atime": "2019-03-16T14:25:55.067Z",
+      "mtime": "2019-03-16T14:25:55.067Z",
+      "ctime": "2019-03-16T14:25:55.067Z",
+      "birthtime": "2019-03-16T14:25:55.067Z"
+    },
+    "12ea8c01-5385-5eee-9141-c086fea577f8": {
+      "id": "12ea8c01-5385-5eee-9141-c086fea577f8",
+      "children": [],
+      "parent": "77915338-6af7-539c-b3d6-148c5f616ce4",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3f088c47-3695-5481-bc86-c6f876506e76": {
+      "id": "3f088c47-3695-5481-bc86-c6f876506e76",
+      "children": [
+        "3e8d29b2-a91b-5b6a-abad-1e6f273d3dd8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "E:/node/gallayl.github.io/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-03-16T14:25:55.067Z",
+      "accessTime": "2019-03-16T14:25:55.067Z",
+      "changeTime": "2019-03-16T14:25:55.067Z",
+      "birthTime": "2019-03-16T14:25:55.066Z",
+      "root": "E:/",
+      "dir": "E:/node/gallayl.github.io/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 1392475438,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2251799813878741,
+      "atimeMs": 1552746355066.902,
+      "mtimeMs": 1552746355066.902,
+      "ctimeMs": 1552746355066.902,
+      "birthtimeMs": 1552746355065.9026,
+      "atime": "2019-03-16T14:25:55.067Z",
+      "mtime": "2019-03-16T14:25:55.067Z",
+      "ctime": "2019-03-16T14:25:55.067Z",
+      "birthtime": "2019-03-16T14:25:55.066Z"
+    },
+    "3e8d29b2-a91b-5b6a-abad-1e6f273d3dd8": {
+      "id": "3e8d29b2-a91b-5b6a-abad-1e6f273d3dd8",
+      "children": [],
+      "parent": "3f088c47-3695-5481-bc86-c6f876506e76",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e38d5520-b266-57a6-a1e6-0a390cc7379f": {
+      "id": "e38d5520-b266-57a6-a1e6-0a390cc7379f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "99d0c42eac4f72427d15b32f0388a154",
+        "type": "Directory",
+        "description": "Directory \"md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "E:/node/gallayl.github.io/md",
+      "relativePath": "",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-03-16T14:47:31.707Z",
+      "accessTime": "2019-03-16T14:47:31.707Z",
+      "changeTime": "2019-03-16T16:05:53.112Z",
+      "birthTime": "2019-03-16T14:46:38.438Z",
+      "root": "E:/",
+      "dir": "E:/node/gallayl.github.io",
+      "base": "md",
+      "ext": "",
+      "name": "md",
+      "relativeDirectory": "..",
+      "dev": 1392475438,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5066549580985662,
+      "atimeMs": 1552747651707.291,
+      "mtimeMs": 1552747651707.291,
+      "ctimeMs": 1552752353111.8892,
+      "birthtimeMs": 1552747598437.9788,
+      "atime": "2019-03-16T14:47:31.707Z",
+      "mtime": "2019-03-16T14:47:31.707Z",
+      "ctime": "2019-03-16T16:05:53.112Z",
+      "birthtime": "2019-03-16T14:46:38.438Z"
+    },
+    "30e1dcf3-a988-586c-bd5d-324811464bae": {
+      "id": "30e1dcf3-a988-586c-bd5d-324811464bae",
+      "children": [
+        "2aaf1ee9-29dd-5898-8c10-b40eab49a9c1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ddf3f673a740991a5df6599ec3133134",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"md\\2018-03-16-Greetz.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "E:/node/gallayl.github.io/md/2018-03-16-Greetz.md",
+      "relativePath": "2018-03-16-Greetz.md",
+      "extension": "md",
+      "size": 131,
+      "prettySize": "131 B",
+      "modifiedTime": "2019-03-16T15:02:19.421Z",
+      "accessTime": "2019-03-16T15:02:19.421Z",
+      "changeTime": "2019-03-16T15:02:19.421Z",
+      "birthTime": "2019-03-16T14:47:22.842Z",
+      "root": "E:/",
+      "dir": "E:/node/gallayl.github.io/md",
+      "base": "2018-03-16-Greetz.md",
+      "ext": ".md",
+      "name": "2018-03-16-Greetz",
+      "relativeDirectory": "",
+      "dev": 1392475438,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3940649674142940,
+      "atimeMs": 1552748539421.1748,
+      "mtimeMs": 1552748539421.1748,
+      "ctimeMs": 1552748539421.1748,
+      "birthtimeMs": 1552747642842.2915,
+      "atime": "2019-03-16T15:02:19.421Z",
+      "mtime": "2019-03-16T15:02:19.421Z",
+      "ctime": "2019-03-16T15:02:19.421Z",
+      "birthtime": "2019-03-16T14:47:22.842Z"
+    },
+    "2aaf1ee9-29dd-5898-8c10-b40eab49a9c1": {
+      "id": "2aaf1ee9-29dd-5898-8c10-b40eab49a9c1",
+      "children": [],
+      "parent": "30e1dcf3-a988-586c-bd5d-324811464bae",
+      "internal": {
+        "content": "\r\n# Hello World\r\n\r\nAn example blog entry.\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2fc2f6affa21aaaa70eb7b2076ca81f1",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My first blog post",
+        "path": "/blog/my-first-post",
+        "date": "2018-03-16"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\r\n# Hello World\r\n\r\nAn example blog entry.\r\n",
+      "fileAbsolutePath": "E:/node/gallayl.github.io/md/2018-03-16-Greetz.md"
+    },
+    "SitePage /blog/my-first-post": {
+      "jsonName": "blog-my-first-post-ac2",
+      "internalComponentName": "ComponentBlogMyFirstPost",
+      "path": "/blog/my-first-post",
+      "component": "E:/node/gallayl.github.io/src/templates/blogTemplate.tsx",
+      "componentChunkName": "component---src-templates-blog-template-tsx",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "E:/node/gallayl.github.io/src/templates/blogTemplate.tsx",
+      "id": "SitePage /blog/my-first-post",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "47dfdd853f82f32cd5d04cf9f90ebde1",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "E:/node/gallayl.github.io/src/pages/404.tsx",
+      "componentChunkName": "component---src-pages-404-tsx",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/404.tsx",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6fcaa8eb469cf66d8e8d7d355571b396",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "jsonName": "blog-f7a",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "E:/node/gallayl.github.io/src/pages/blog.tsx",
+      "componentChunkName": "component---src-pages-blog-tsx",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/blog.tsx",
+      "id": "SitePage /blog/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b6ce2c26a4edc4a232d283ac6c0e52bc",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/": {
+      "jsonName": "cv-329",
+      "internalComponentName": "ComponentCv",
+      "path": "/cv/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv.tsx",
+      "componentChunkName": "component---src-pages-cv-tsx",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv.tsx",
+      "id": "SitePage /cv/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "89749e659c699dd9d569b610ec311db1",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/certification/": {
+      "jsonName": "cv-models-certification-69d",
+      "internalComponentName": "ComponentCvModelsCertification",
+      "path": "/cv/models/certification/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/certification.ts",
+      "componentChunkName": "component---src-pages-cv-models-certification-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/certification.ts",
+      "id": "SitePage /cv/models/certification/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "271549e6ef419a75d8a1095bae3e2aaf",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/employer/": {
+      "jsonName": "cv-models-employer-f71",
+      "internalComponentName": "ComponentCvModelsEmployer",
+      "path": "/cv/models/employer/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/employer.ts",
+      "componentChunkName": "component---src-pages-cv-models-employer-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/employer.ts",
+      "id": "SitePage /cv/models/employer/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d5fed8eed076ea1e19f7691fa90f6db3",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/enums/": {
+      "jsonName": "cv-models-enums-933",
+      "internalComponentName": "ComponentCvModelsEnums",
+      "path": "/cv/models/enums/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/enums.ts",
+      "componentChunkName": "component---src-pages-cv-models-enums-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/enums.ts",
+      "id": "SitePage /cv/models/enums/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "52fbd491d1f97fe8d1a74de234548bfc",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/hobby/": {
+      "jsonName": "cv-models-hobby-ef0",
+      "internalComponentName": "ComponentCvModelsHobby",
+      "path": "/cv/models/hobby/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/hobby.ts",
+      "componentChunkName": "component---src-pages-cv-models-hobby-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/hobby.ts",
+      "id": "SitePage /cv/models/hobby/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "774349494cb98f183ec902876c0e8862",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/ihaslocation/": {
+      "jsonName": "cv-models-ihaslocation-939",
+      "internalComponentName": "ComponentCvModelsIhaslocation",
+      "path": "/cv/models/ihaslocation/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/ihaslocation.ts",
+      "componentChunkName": "component---src-pages-cv-models-ihaslocation-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/ihaslocation.ts",
+      "id": "SitePage /cv/models/ihaslocation/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f145f1268a352360c57e92bb6c9533ca",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/job/": {
+      "jsonName": "cv-models-job-726",
+      "internalComponentName": "ComponentCvModelsJob",
+      "path": "/cv/models/job/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/job.ts",
+      "componentChunkName": "component---src-pages-cv-models-job-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/job.ts",
+      "id": "SitePage /cv/models/job/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "632137a5a883baf68aff5940c7731fdc",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/language/": {
+      "jsonName": "cv-models-language-667",
+      "internalComponentName": "ComponentCvModelsLanguage",
+      "path": "/cv/models/language/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/language.ts",
+      "componentChunkName": "component---src-pages-cv-models-language-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/language.ts",
+      "id": "SitePage /cv/models/language/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "357c4be3feda9e063a59559abb50bed2",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/localizedresource/": {
+      "jsonName": "cv-models-localizedresource-ec9",
+      "internalComponentName": "ComponentCvModelsLocalizedresource",
+      "path": "/cv/models/localizedresource/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/localizedresource.ts",
+      "componentChunkName": "component---src-pages-cv-models-localizedresource-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/localizedresource.ts",
+      "id": "SitePage /cv/models/localizedresource/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d870e7dd1707112901e1b6619d1271f9",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/owner/": {
+      "jsonName": "cv-models-owner-257",
+      "internalComponentName": "ComponentCvModelsOwner",
+      "path": "/cv/models/owner/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/owner.ts",
+      "componentChunkName": "component---src-pages-cv-models-owner-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/owner.ts",
+      "id": "SitePage /cv/models/owner/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "be51ce6f643567f3876aa5d93de903c1",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/project/": {
+      "jsonName": "cv-models-project-beb",
+      "internalComponentName": "ComponentCvModelsProject",
+      "path": "/cv/models/project/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/project.ts",
+      "componentChunkName": "component---src-pages-cv-models-project-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/project.ts",
+      "id": "SitePage /cv/models/project/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "24cc49714f5eee4bb7ca85d7639eef38",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/school/": {
+      "jsonName": "cv-models-school-e90",
+      "internalComponentName": "ComponentCvModelsSchool",
+      "path": "/cv/models/school/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/school.ts",
+      "componentChunkName": "component---src-pages-cv-models-school-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/school.ts",
+      "id": "SitePage /cv/models/school/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2483adfa36abcc585b578e5d5ac4caf8",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/skill/": {
+      "jsonName": "cv-models-skill-955",
+      "internalComponentName": "ComponentCvModelsSkill",
+      "path": "/cv/models/skill/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/skill.ts",
+      "componentChunkName": "component---src-pages-cv-models-skill-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/skill.ts",
+      "id": "SitePage /cv/models/skill/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "06b679fa034810d0f18a0e950a438644",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/tag/": {
+      "jsonName": "cv-models-tag-28a",
+      "internalComponentName": "ComponentCvModelsTag",
+      "path": "/cv/models/tag/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/tag.ts",
+      "componentChunkName": "component---src-pages-cv-models-tag-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/tag.ts",
+      "id": "SitePage /cv/models/tag/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d561a7892244c8a0fe3c2a7a989392f1",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/models/types/": {
+      "jsonName": "cv-models-types-109",
+      "internalComponentName": "ComponentCvModelsTypes",
+      "path": "/cv/models/types/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/models/types.ts",
+      "componentChunkName": "component---src-pages-cv-models-types-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/types.ts",
+      "id": "SitePage /cv/models/types/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "460626f991bddc178c88e162ba669365",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/services/hobbyservice/": {
+      "jsonName": "cv-services-hobbyservice-c5b",
+      "internalComponentName": "ComponentCvServicesHobbyservice",
+      "path": "/cv/services/hobbyservice/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/services/hobbyservice.ts",
+      "componentChunkName": "component---src-pages-cv-services-hobbyservice-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/hobbyservice.ts",
+      "id": "SitePage /cv/services/hobbyservice/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "daedc8095ce7d2da3cbda64ab51e284f",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/services/jobservice/": {
+      "jsonName": "cv-services-jobservice-ded",
+      "internalComponentName": "ComponentCvServicesJobservice",
+      "path": "/cv/services/jobservice/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/services/jobservice.ts",
+      "componentChunkName": "component---src-pages-cv-services-jobservice-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/jobservice.ts",
+      "id": "SitePage /cv/services/jobservice/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dbf9bffe9a9aedf8ffc8029ab46c6699",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/services/languagesservice/": {
+      "jsonName": "cv-services-languagesservice-d06",
+      "internalComponentName": "ComponentCvServicesLanguagesservice",
+      "path": "/cv/services/languagesservice/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/services/languagesservice.ts",
+      "componentChunkName": "component---src-pages-cv-services-languagesservice-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/languagesservice.ts",
+      "id": "SitePage /cv/services/languagesservice/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9ce3b178d44def78b4fb7f4fd2c1812a",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/services/localizationservice/": {
+      "jsonName": "cv-services-localizationservice-796",
+      "internalComponentName": "ComponentCvServicesLocalizationservice",
+      "path": "/cv/services/localizationservice/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/services/localizationservice.ts",
+      "componentChunkName": "component---src-pages-cv-services-localizationservice-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/localizationservice.ts",
+      "id": "SitePage /cv/services/localizationservice/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e9daad5d33ba318d5040f95630476b13",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/services/ownerservice/": {
+      "jsonName": "cv-services-ownerservice-382",
+      "internalComponentName": "ComponentCvServicesOwnerservice",
+      "path": "/cv/services/ownerservice/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/services/ownerservice.ts",
+      "componentChunkName": "component---src-pages-cv-services-ownerservice-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/ownerservice.ts",
+      "id": "SitePage /cv/services/ownerservice/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a6311fad42b3d62dd108f2d7ad0502ca",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/services/schoolservice/": {
+      "jsonName": "cv-services-schoolservice-9f8",
+      "internalComponentName": "ComponentCvServicesSchoolservice",
+      "path": "/cv/services/schoolservice/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/services/schoolservice.ts",
+      "componentChunkName": "component---src-pages-cv-services-schoolservice-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/schoolservice.ts",
+      "id": "SitePage /cv/services/schoolservice/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6f9aac2a2ec304f945905b3f5c323bf5",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/services/skillservice/": {
+      "jsonName": "cv-services-skillservice-c18",
+      "internalComponentName": "ComponentCvServicesSkillservice",
+      "path": "/cv/services/skillservice/",
+      "component": "E:/node/gallayl.github.io/src/pages/cv/services/skillservice.ts",
+      "componentChunkName": "component---src-pages-cv-services-skillservice-ts",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/skillservice.ts",
+      "id": "SitePage /cv/services/skillservice/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "04d1b438ce190cea552fd3a08debeb66",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "E:/node/gallayl.github.io/src/pages/index.tsx",
+      "componentChunkName": "component---src-pages-index-tsx",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/index.tsx",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "31bdadfafbbffdcafc2079aacc270f36",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "E:/node/gallayl.github.io/src/pages/page-2.tsx",
+      "componentChunkName": "component---src-pages-page-2-tsx",
+      "context": {},
+      "pluginCreator___NODE": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "pluginCreatorId": "bef460fc-6aa5-587d-b189-4e436917fc91",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/page-2.tsx",
+      "id": "SitePage /page-2/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "68fcefbd3df750bdc7bd6a562a9adb83",
+        "description": "bef460fc-6aa5-587d-b189-4e436917fc91",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "E:/node/gallayl.github.io/src/pages/404.tsx",
+      "componentChunkName": "component---src-pages-404-tsx",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/404.tsx",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5818f486facbcd601e8a8f85a5fd41b0",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "da46700a10165b0306cc6c0a32bf7381"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-tsx",
+        "sq--src-components-seo-tsx"
+      ],
+      "3f088c47-3695-5481-bc86-c6f876506e76": [
+        "sq--src-components-image-tsx"
+      ],
+      "2aaf1ee9-29dd-5898-8c10-b40eab49a9c1": [
+        "/blog/my-first-post"
+      ],
+      "3e8d29b2-a91b-5b6a-abad-1e6f273d3dd8": [
+        "sq--src-components-image-tsx"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-layout-tsx": 755544856,
+    "sq--src-components-seo-tsx": 2417117884,
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-my-first-post-ac2": "231/path---blog-my-first-post-ac-2-66c-OfbdxqDCFkVR5isdmG5wKNIL0Ao",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-tsx": 2011440971,
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-f7a": "32/path---blog-f-7-a-05d-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-329": "602/path---cv-329-73d-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-certification-69d": "75/path---cv-models-certification-69-d-dc7-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-employer-f71": "229/path---cv-models-employer-f-71-ac9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-enums-933": "327/path---cv-models-enums-933-2dc-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-hobby-ef0": "854/path---cv-models-hobby-ef-0-9df-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-ihaslocation-939": "9/path---cv-models-ihaslocation-939-7e1-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-job-726": "330/path---cv-models-job-726-bbd-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-localizedresource-ec9": "334/path---cv-models-localizedresource-ec-9-a41-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-language-667": "631/path---cv-models-language-667-eaf-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-owner-257": "99/path---cv-models-owner-257-8c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-project-beb": "122/path---cv-models-project-beb-2b2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-skill-955": "836/path---cv-models-skill-955-4c3-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-tag-28a": "524/path---cv-models-tag-28-a-f80-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-school-e90": "458/path---cv-models-school-e-90-294-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-models-types-109": "79/path---cv-models-types-109-553-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-services-hobbyservice-c5b": "729/path---cv-services-hobbyservice-c-5-b-0f1-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-services-languagesservice-d06": "940/path---cv-services-languagesservice-d-06-fef-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-services-jobservice-ded": "88/path---cv-services-jobservice-ded-4ec-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-services-localizationservice-796": "802/path---cv-services-localizationservice-796-442-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-services-ownerservice-382": "906/path---cv-services-ownerservice-382-c5f-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-services-schoolservice-9f8": "535/path---cv-services-schoolservice-9-f-8-3d5-NZuapzHg3X9TaN1iIixfv1W23E",
+    "cv-services-skillservice-c18": "703/path---cv-services-skillservice-c-18-1ab-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "E:/node/gallayl.github.io/src/templates/blogTemplate.tsx": {
+      "query": "query eNodeGallaylGithubIoSrcTemplatesBlogTemplateTsx1579142440(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      date(formatString: \"MMMM DD, YYYY\")\n      path\n      title\n    }\n  }\n}\n",
+      "componentPath": "E:/node/gallayl.github.io/src/templates/blogTemplate.tsx"
+    },
+    "E:/node/gallayl.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/.cache/dev-404-page.js"
+    },
+    "E:/node/gallayl.github.io/src/pages/404.tsx": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/404.tsx"
+    },
+    "E:/node/gallayl.github.io/src/pages/blog.tsx": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/blog.tsx"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv.tsx": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv.tsx"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/certification.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/certification.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/employer.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/employer.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/enums.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/enums.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/hobby.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/hobby.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/ihaslocation.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/ihaslocation.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/job.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/job.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/language.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/language.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/localizedresource.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/localizedresource.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/owner.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/owner.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/project.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/project.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/school.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/school.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/skill.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/skill.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/tag.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/tag.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/models/types.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/models/types.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/services/hobbyservice.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/hobbyservice.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/services/jobservice.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/jobservice.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/services/languagesservice.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/languagesservice.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/services/localizationservice.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/localizationservice.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/services/ownerservice.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/ownerservice.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/services/schoolservice.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/schoolservice.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/cv/services/skillservice.ts": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/cv/services/skillservice.ts"
+    },
+    "E:/node/gallayl.github.io/src/pages/index.tsx": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/index.tsx"
+    },
+    "E:/node/gallayl.github.io/src/pages/page-2.tsx": {
+      "query": "",
+      "componentPath": "E:/node/gallayl.github.io/src/pages/page-2.tsx"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-image-tsx": {
+      "name": "eNodeGallaylGithubIoSrcComponentsImageTsx2011440971",
+      "componentPath": "E:/node/gallayl.github.io/src/components/image.tsx",
+      "id": "sq--src-components-image-tsx",
+      "jsonName": "sq--src-components-image-tsx",
+      "query": "query eNodeGallaylGithubIoSrcComponentsImageTsx2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
+    "sq--src-components-layout-tsx": {
+      "name": "SiteTitleQuery",
+      "componentPath": "E:/node/gallayl.github.io/src/components/layout.tsx",
+      "id": "sq--src-components-layout-tsx",
+      "jsonName": "sq--src-components-layout-tsx",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-tsx": {
+      "name": "eNodeGallaylGithubIoSrcComponentsSeoTsx2417117884",
+      "componentPath": "E:/node/gallayl.github.io/src/components/seo.tsx",
+      "id": "sq--src-components-seo-tsx",
+      "jsonName": "sq--src-components-seo-tsx",
+      "query": "query eNodeGallaylGithubIoSrcComponentsSeoTsx2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
+    }
+  }
+}
