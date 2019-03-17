@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@furystack/inject": "^2.0.0",
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "@types/react-responsive": "^3.0.3",
@@ -22,7 +23,10 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
-    "react-responsive": "^6.1.1"
+    "react-responsive": "^6.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-consistent-codestyle": "^1.15.1",
+    "tslint-react": "^3.6.0"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",

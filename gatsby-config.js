@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/reponame",
+  pathPrefix: "/gallayl.github.io",
   siteMetadata: {
     title: `gallayl.github.io`,
     description: `An experiment with gatsbyjs`,

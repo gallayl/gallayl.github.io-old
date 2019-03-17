@@ -1,29 +1,41 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useContext } from "react"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
 import Button from "@material-ui/core/Button"
 import Home from "@material-ui/icons/Home"
 import Typography from "@material-ui/core/Typography"
+import { ThemeContext } from "../context/theme"
+import { HeaderMenu } from "./header-menu"
 
 const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   siteTitle,
-}) => (
-  <AppBar position="static">
-    <Toolbar>
-      <Link
-        to="/"
-        style={{ textDecoration: "none", fontVariant: "small-caps" }}
-      >
-        <Button>
-          <Home />
-          <Typography variant="button">&nbsp;{siteTitle}</Typography>
-        </Button>
-      </Link>
-    </Toolbar>
-  </AppBar>
-)
+}) => {
+  const theme = useContext(ThemeContext)
+  return (
+    <AppBar
+      position="static"
+      style={{ backgroundColor: theme.palette.background.paper }}
+    >
+      <Toolbar style={{ display: "flex", justifyContent: "space-between" }}>
+        <Link
+          to="/"
+          style={{ textDecoration: "none", fontVariant: "small-caps" }}
+        >
+          <Button>
+            <Home />
+            <Typography variant="button">&nbsp;{siteTitle}</Typography>
+          </Button>
+        </Link>
+        <div>
+          <HeaderMenu to="/blog" title="Blog" />
+          <HeaderMenu to="/cv" title="CV" />
+        </div>
+      </Toolbar>
+    </AppBar>
+  )
+}
 
 //   <header
 //     style={{
